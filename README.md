@@ -86,13 +86,6 @@ The Streamlit server should now be running on `http://localhost:8501`.
 - **Ask Questions**: In the "Ask Questions" tab, enter a question like "What is the main topic of the document?" to receive an answer.
 - **Generate Quizzes**: In the "Generate Quizzes" tab, click the "Generate Quiz" button to generate multiple-choice questions based on the uploaded document.
 
-## Dependencies
-
-- **pdfplumber**: For extracting text from PDF files.
-- **torch**: For loading and using the language model.
-- **transformers**: For using the **Gemma-2** model and tokenizer.
-- **streamlit**: For building the user interface.
-- **dotenv**: For managing environment variables.
 
 
 ## Acknowledgements
