@@ -17,7 +17,7 @@ The application utilizes the **Gemma-2b-it** model, which is designed for inform
 
 - **Model Name**: Gemma-2b-it
 - **Model Description**: The model is fine-tuned for answering questions and providing explanations based on the context extracted from PDF documents.
-- **Hugging Face Repository**: [JaeJiMin/daily_hug](https://huggingface.co/JaeJiMin/daily_hug)
+
 
 The model is served locally without the need for external API calls to Hugging Face, ensuring faster response times for a real-time chat experience.
 
