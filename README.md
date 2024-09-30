@@ -1,3 +1,4 @@
+
 # 📚 Gemma-2 Study Bot: StudyWithU
 
 ## Introduction
@@ -17,7 +18,6 @@ The application utilizes the **Gemma-2b-it** model, which is designed for inform
 
 - **Model Name**: Gemma-2b-it
 - **Model Description**: The model is fine-tuned for answering questions and providing explanations based on the context extracted from PDF documents.
-
 
 The model is served locally without the need for external API calls to Hugging Face, ensuring faster response times for a real-time chat experience.
 
@@ -42,6 +42,7 @@ The model is served locally without the need for external API calls to Hugging F
 - **Python 3.8+** (for backend)
 - **Git** (to clone the repository)
 - **Streamlit** (for frontend)
+- **Hugging Face Personal Token**: A personal access token from Hugging Face is required to access the **Gemma-2b-it** model. You can obtain it by [signing up](https://huggingface.co/join) on Hugging Face and navigating to your [tokens page](https://huggingface.co/settings/tokens).
 
 ### Backend Setup
 
@@ -65,13 +66,24 @@ The model is served locally without the need for external API calls to Hugging F
    pip install -r requirements.txt
    ```
 
-4. **Run the Streamlit application**:
+4. **Configure Environment Variables**:
+
+   - Create a `.env` file in the root directory of the project.
+   - Add your Hugging Face personal token to the `.env` file:
+
+     ```env
+     HUGGINGFACE_TOKEN=your_hugging_face_token_here
+     ```
+
+     > **주의**: `.env` 파일은 절대 버전 관리 시스템(Git 등)에 포함되지 않도록 `.gitignore` 파일에 추가해야 합니다.
+
+5. **Run the Streamlit application**:
 
    ```bash
    streamlit run app.py
    ```
 
-The Streamlit server should now be running on `http://localhost:8501`.
+   The Streamlit server should now be running on `http://localhost:8501`.
 
 ## Usage Instructions
 
@@ -79,16 +91,12 @@ The Streamlit server should now be running on `http://localhost:8501`.
 2. **Ask Questions**: Navigate to the "Ask Questions" tab, type in your question about the content of the uploaded PDF, and receive a response from the AI model.
 3. **Generate Quizzes**: Go to the "Generate Quizzes" tab and click on "Generate Quiz" to create multiple-choice questions based on the content of the uploaded document.
 
-
 ## Example Usage
 
 - **Upload PDF Documents**: Upload a PDF document that contains content you'd like to explore.
 - **Ask Questions**: In the "Ask Questions" tab, enter a question like "What is the main topic of the document?" to receive an answer.
 - **Generate Quizzes**: In the "Generate Quizzes" tab, click the "Generate Quiz" button to generate multiple-choice questions based on the uploaded document.
 
-
-
 ## Acknowledgements
 
 This project uses the **Gemma-2** language model from Google, along with the **Hugging Face Transformers** library for natural language processing.
-
