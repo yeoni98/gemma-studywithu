@@ -1,5 +1,3 @@
-
-
 # 📚 Gemma-2 Study Bot: StudyWithU
 
 ## Introduction
