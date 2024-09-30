@@ -104,7 +104,7 @@ It sounds like you want to develop a system with two main functions:
   - Provides **new random quizzes** each time they are generated.
   - When a user selects an **incorrect answer**, the system displays a message indicating it is incorrect.
   - When a user selects the **correct answer**, the system **confirms it** and provides an **explanation**.
-  - ![Screenshot 2024-10-01 at 8 32 51 AM](https://github.com/user-attachments/assets/de90a2cf-1d53-45f2-bfae-c6561f871007)
-  - ![Screenshot 2024-10-01 at 8 33 08 AM](https://github.com/user-attachments/assets/0ec6b4c6-44fb-426c-9426-4c57c690bcdf)
-  - ![Screenshot 2024-10-01 at 8 33 26 AM](https://github.com/user-attachments/assets/96a73d56-da09-48c9-bd09-e7f690f38677)
+  ## ![Screenshot 2024-10-01 at 8 32 51 AM](https://github.com/user-attachments/assets/de90a2cf-1d53-45f2-bfae-c6561f871007)
+  ## ![Screenshot 2024-10-01 at 8 33 08 AM](https://github.com/user-attachments/assets/0ec6b4c6-44fb-426c-9426-4c57c690bcdf)
+  ## ![Screenshot 2024-10-01 at 8 33 26 AM](https://github.com/user-attachments/assets/96a73d56-da09-48c9-bd09-e7f690f38677)
 
