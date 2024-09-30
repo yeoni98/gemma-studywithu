@@ -1,4 +1,3 @@
-
 # 📚 Gemma-2 Study Bot: StudyWithU
 
 ## Introduction
@@ -94,8 +93,8 @@ It sounds like you want to develop a system with two main functions:
 - **Features**:
   - The system **generates answers** based on the contents of the uploaded PDF.
   - The system **remembers previous responses**, allowing users to **ask follow-up questions**, like "**Can you explain more?**" based on the **context of prior answers**.
-  ## <img width="912" alt="Screenshot 2024-09-29 at 1 20 31 PM" src="https://github.com/user-attachments/assets/c04a988b-6bd0-4859-8428-3b1df7340774">
-  ## ![Screenshot 2024-10-01 at 8 32 27 AM](https://github.com/user-attachments/assets/f0cef64d-7a72-4f14-ab8c-09cecac958e1)
+  ### <img width="912" alt="Screenshot 2024-09-29 at 1 20 31 PM" src="https://github.com/user-attachments/assets/c04a988b-6bd0-4859-8428-3b1df7340774">
+  ### ![Screenshot 2024-10-01 at 8 32 27 AM](https://github.com/user-attachments/assets/f0cef64d-7a72-4f14-ab8c-09cecac958e1)
  
 
 2. **Generate Quizzes**
@@ -104,7 +103,7 @@ It sounds like you want to develop a system with two main functions:
   - Provides **new random quizzes** each time they are generated.
   - When a user selects an **incorrect answer**, the system displays a message indicating it is incorrect.
   - When a user selects the **correct answer**, the system **confirms it** and provides an **explanation**.
-  ## ![Screenshot 2024-10-01 at 8 32 51 AM](https://github.com/user-attachments/assets/de90a2cf-1d53-45f2-bfae-c6561f871007)
-  ## ![Screenshot 2024-10-01 at 8 33 08 AM](https://github.com/user-attachments/assets/0ec6b4c6-44fb-426c-9426-4c57c690bcdf)
+  ### ![Screenshot 2024-10-01 at 8 32 51 AM](https://github.com/user-attachments/assets/de90a2cf-1d53-45f2-bfae-c6561f871007)
+  ### ![Screenshot 2024-10-01 at 8 33 08 AM](https://github.com/user-attachments/assets/0ec6b4c6-44fb-426c-9426-4c57c690bcdf)
    ![Screenshot 2024-10-01 at 8 33 26 AM](https://github.com/user-attachments/assets/96a73d56-da09-48c9-bd09-e7f690f38677)
 
