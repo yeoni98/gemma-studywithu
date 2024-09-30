@@ -85,18 +85,26 @@ The model is served locally without the need for external API calls to Hugging F
 
    The Streamlit server should now be running on `http://localhost:8501`.
 
-## Usage Instructions
+It sounds like you want to develop a system with two main functions: 
 
-1. **Upload PDF Files**: Use the "Upload PDF files" button to upload one or more PDF documents.
-2. **Ask Questions**: Navigate to the "Ask Questions" tab, type in your question about the content of the uploaded PDF, and receive a response from the AI model.
-3. **Generate Quizzes**: Go to the "Generate Quizzes" tab and click on "Generate Quiz" to create multiple-choice questions based on the content of the uploaded document.
 
-## Example Usage
+## Results
+1. **Ask Questions**
+- **Functionality**: Users can **upload a PDF** and **ask questions** about its content. 
+- **Features**:
+  - The system **generates answers** based on the contents of the uploaded PDF.
+  - The system **remembers previous responses**, allowing users to **ask follow-up questions**, like "**Can you explain more?**" based on the **context of prior answers**.
+  - <img width="912" alt="Screenshot 2024-09-29 at 1 20 31 PM" src="https://github.com/user-attachments/assets/c04a988b-6bd0-4859-8428-3b1df7340774">
+  - ![Screenshot 2024-10-01 at 8 32 27 AM](https://github.com/user-attachments/assets/f0cef64d-7a72-4f14-ab8c-09cecac958e1)
+ 
 
-- **Upload PDF Documents**: Upload a PDF document that contains content you'd like to explore.
-- **Ask Questions**: In the "Ask Questions" tab, enter a question like "What is the main topic of the document?" to receive an answer.
-- **Generate Quizzes**: In the "Generate Quizzes" tab, click the "Generate Quiz" button to generate multiple-choice questions based on the uploaded document.
+2. **Generate Quizzes**
+- **Functionality**: **Generates 5 random quizzes** each time.
+- **Features**:
+  - Provides **new random quizzes** each time they are generated.
+  - When a user selects an **incorrect answer**, the system displays a message indicating it is incorrect.
+  - When a user selects the **correct answer**, the system **confirms it** and provides an **explanation**.
+  - ![Screenshot 2024-10-01 at 8 32 51 AM](https://github.com/user-attachments/assets/de90a2cf-1d53-45f2-bfae-c6561f871007)
+  - ![Screenshot 2024-10-01 at 8 33 08 AM](https://github.com/user-attachments/assets/0ec6b4c6-44fb-426c-9426-4c57c690bcdf)
+  - ![Screenshot 2024-10-01 at 8 33 26 AM](https://github.com/user-attachments/assets/96a73d56-da09-48c9-bd09-e7f690f38677)
 
-## Acknowledgements
-
-This project uses the **Gemma-2** language model from Google, along with the **Hugging Face Transformers** library for natural language processing.
