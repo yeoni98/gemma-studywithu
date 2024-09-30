@@ -1,3 +1,5 @@
+
+
 # 📚 Gemma-2 Study Bot: StudyWithU
 
 ## Introduction
@@ -84,18 +86,15 @@ The model is served locally without the need for external API calls to Hugging F
 
    The Streamlit server should now be running on `http://localhost:8501`.
 
-It sounds like you want to develop a system with two main functions: 
-
-
 ## Results
-1. **Ask Questions**
+
+### 1. Ask Questions
 - **Functionality**: Users can **upload a PDF** and **ask questions** about its content. 
 - **Features**:
   - The system **generates answers** based on the contents of the uploaded PDF.
   - The system **remembers previous responses**, allowing users to **ask follow-up questions**, like "**Can you explain more?**" based on the **context of prior answers**.
-  
 
-2. **Generate Quizzes**
+### 2. Generate Quizzes
 - **Functionality**: **Generates 5 random quizzes** each time.
 - **Features**:
   - Provides **new random quizzes** each time they are generated.
