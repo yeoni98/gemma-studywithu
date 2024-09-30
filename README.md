@@ -94,8 +94,8 @@ It sounds like you want to develop a system with two main functions:
 - **Features**:
   - The system **generates answers** based on the contents of the uploaded PDF.
   - The system **remembers previous responses**, allowing users to **ask follow-up questions**, like "**Can you explain more?**" based on the **context of prior answers**.
-  - <img width="912" alt="Screenshot 2024-09-29 at 1 20 31 PM" src="https://github.com/user-attachments/assets/c04a988b-6bd0-4859-8428-3b1df7340774">
-  - ![Screenshot 2024-10-01 at 8 32 27 AM](https://github.com/user-attachments/assets/f0cef64d-7a72-4f14-ab8c-09cecac958e1)
+  ## <img width="912" alt="Screenshot 2024-09-29 at 1 20 31 PM" src="https://github.com/user-attachments/assets/c04a988b-6bd0-4859-8428-3b1df7340774">
+  ## ![Screenshot 2024-10-01 at 8 32 27 AM](https://github.com/user-attachments/assets/f0cef64d-7a72-4f14-ab8c-09cecac958e1)
  
 
 2. **Generate Quizzes**
