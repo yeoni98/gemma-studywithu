@@ -90,7 +90,8 @@ The model is served locally without the need for external API calls to Hugging F
 - **Functionality**: Users can **upload a PDF** and **ask questions** about its content. 
 - **Features**:
   - The system **generates answers** based on the contents of the uploaded PDF.
-  - The system **remembers previous responses**, allowing users to **ask follow-up questions**, like "**Can you explain more?**" based on the **context of prior answers**.
+  - ## The system **remembers previous responses**, allowing users to **ask follow-up questions**, like "**Can you explain more?**" based on the **context of prior answers**.
+  - ## ![Screenshot 2024-10-01 at 8 32 27 AM](https://github.com/user-attachments/assets/f0cef64d-7a72-4f14-ab8c-09cecac958e1)
 
 ### 2. Generate Quizzes
 - **Functionality**: **Generates 5 random quizzes** each time.
@@ -98,4 +99,7 @@ The model is served locally without the need for external API calls to Hugging F
   - Provides **new random quizzes** each time they are generated.
   - When a user selects an **incorrect answer**, the system displays a message indicating it is incorrect.
   - When a user selects the **correct answer**, the system **confirms it** and provides an **explanation**.
+  - ## ![Screenshot 2024-10-01 at 8 32 51 AM](https://github.com/user-attachments/assets/de90a2cf-1d53-45f2-bfae-c6561f871007)
+  - ## ![Screenshot 2024-10-01 at 8 33 08 AM](https://github.com/user-attachments/assets/0ec6b4c6-44fb-426c-9426-4c57c690bcdf)
+  - ## ![Screenshot 2024-10-01 at 8 33 26 AM](https://github.com/user-attachments/assets/96a73d56-da09-48c9-bd09-e7f690f38677)
 
