@@ -18,8 +18,6 @@ The application utilizes the **Gemma-2b-it** model, which is designed for inform
 - **Model Name**: Gemma-2b-it
 - **Model Description**: The model is fine-tuned for answering questions and providing explanations based on the context extracted from PDF documents.
 
-The model is served locally without the need for external API calls to Hugging Face, ensuring faster response times for a real-time chat experience.
-
 ## Technologies Used
 
 ### Frontend
@@ -73,8 +71,6 @@ The model is served locally without the need for external API calls to Hugging F
      ```env
      HUGGINGFACE_TOKEN=your_hugging_face_token_here
      ```
-
-     > **주의**: `.env` 파일은 절대 버전 관리 시스템(Git 등)에 포함되지 않도록 `.gitignore` 파일에 추가해야 합니다.
 
 5. **Run the Streamlit application**:
 
